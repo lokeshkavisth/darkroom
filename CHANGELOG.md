@@ -1,9 +1,19 @@
-# Change Log
+# CHANGELOG
 
-All notable changes to the "darkroom" extension will be documented in this file.
+## 0.0.4
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+added licence
+added screenshots
 
-## [Unreleased]
+## 0.0.3
 
-- Initial release
+fix terminal cursor forground and background colors
+
+## 0.0.2
+
+updated readme file
+
+## 0.0.1
+
+added icon,
+editor color fixes
