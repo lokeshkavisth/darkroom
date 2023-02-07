@@ -1,27 +1,48 @@
 {
   "name": "darkroom",
   "displayName": "Darkroom",
-  "description": "Transform your Visual Studio Code workspace into a sleek and stylish environment with our Dark Theme. Featuring a rich, balanced-contrast color palette, this theme offers an optimal viewing experience for coders who prefer a dark background. Experience smoother and more efficient coding sessions with this highly customizable, eye-friendly theme that makes your code pop. Perfect for late-night coding sessions or those who want a distinctive look for their development environment. Download now and immerse yourself in the world of dark coding.",
+  "author": {
+    "name": "Lokesh Kavisth"
+  },
+  "description": "Darkroom Theme: Rich Colors, Dark Ambiance, No Eye Strain",
   "version": "0.0.1",
   "publisher": "LokeshKavisth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lokeshkavisth/darkroom/issues"
+  },
+  "homepage": "https://github.com/lokeshkavisth/darkroom",
   "repository": {
     "type": "git",
     "url": "https://github.com/lokeshkavisth/darkroom"
   },
+  "icon": "icon.jpg",
   "keywords": [
+    "darkroom",
     "theme",
     "dark theme",
     "lokesh kavisth",
-    "darkroom",
     "darkroom dark theme",
-    "darkroom low contrast dark theme"
+    "low contrast dark theme"
   ],
+  "galleryBanner": {
+    "color": "#040608",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "contributes": {
     "themes": [
       {
